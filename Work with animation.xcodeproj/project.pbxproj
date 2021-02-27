@@ -75,9 +75,9 @@
 			children = (
 				5F472EDB25E81C510076C500 /* AppDelegate.swift */,
 				5F472EDD25E81C510076C500 /* SceneDelegate.swift */,
+				5F472EF325E9266E0076C500 /* Model.swift */,
 				5F472EDF25E81C510076C500 /* ViewController.swift */,
 				5F472EE125E81C510076C500 /* Main.storyboard */,
-				5F472EF325E9266E0076C500 /* Model.swift */,
 				5F472EE425E81C550076C500 /* Assets.xcassets */,
 				5F472EE625E81C550076C500 /* LaunchScreen.storyboard */,
 				5F472EE925E81C550076C500 /* Info.plist */,
