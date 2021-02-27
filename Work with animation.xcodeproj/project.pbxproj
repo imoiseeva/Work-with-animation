@@ -13,7 +13,7 @@
 		5F472EE325E81C510076C500 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F472EE125E81C510076C500 /* Main.storyboard */; };
 		5F472EE525E81C550076C500 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F472EE425E81C550076C500 /* Assets.xcassets */; };
 		5F472EE825E81C550076C500 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F472EE625E81C550076C500 /* LaunchScreen.storyboard */; };
-		5F472EF425E9266E0076C500 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F472EF325E9266E0076C500 /* Model.swift */; };
+		5F472EF425E9266E0076C500 /* ModelForAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F472EF325E9266E0076C500 /* ModelForAnimation.swift */; };
 		D5AEE35D85BA79CED92819F4 /* Pods_Work_with_animation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971D5D7B9BECFF119C70FDBE /* Pods_Work_with_animation.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,7 +27,7 @@
 		5F472EE425E81C550076C500 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F472EE725E81C550076C500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F472EE925E81C550076C500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5F472EF325E9266E0076C500 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		5F472EF325E9266E0076C500 /* ModelForAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelForAnimation.swift; sourceTree = "<group>"; };
 		971D5D7B9BECFF119C70FDBE /* Pods_Work_with_animation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Work_with_animation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB54016D41B0707598078C22 /* Pods-Work with animation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Work with animation.debug.xcconfig"; path = "Target Support Files/Pods-Work with animation/Pods-Work with animation.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -75,7 +75,7 @@
 			children = (
 				5F472EDB25E81C510076C500 /* AppDelegate.swift */,
 				5F472EDD25E81C510076C500 /* SceneDelegate.swift */,
-				5F472EF325E9266E0076C500 /* Model.swift */,
+				5F472EF325E9266E0076C500 /* ModelForAnimation.swift */,
 				5F472EDF25E81C510076C500 /* ViewController.swift */,
 				5F472EE125E81C510076C500 /* Main.storyboard */,
 				5F472EE425E81C550076C500 /* Assets.xcassets */,
@@ -211,7 +211,7 @@
 				5F472EE025E81C510076C500 /* ViewController.swift in Sources */,
 				5F472EDC25E81C510076C500 /* AppDelegate.swift in Sources */,
 				5F472EDE25E81C510076C500 /* SceneDelegate.swift in Sources */,
-				5F472EF425E9266E0076C500 /* Model.swift in Sources */,
+				5F472EF425E9266E0076C500 /* ModelForAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,29 +9,34 @@ import Spring
 
 class ViewController: UIViewController {
     
-    var anim = Button.getAnimation()
-    
     @IBOutlet weak var springView: SpringView!
     @IBOutlet weak var textLabel: UILabel!
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-       
-    }
-
+    var anim = Button.getAnimation()
+    var currentAnimation = "shake"
+    
     @IBAction func buttonPresed(_ sender: SpringButton) {
         
-        if let random = anim.lableOfButton.randomElement(){
-            print(random)
-        textLabel.text = random
-        
-        
-        springView.animation = random
+        springView.animation = currentAnimation
         springView.animate()
-
-        sender.animate()
+        
+        textLabel.text = "Animation: \(currentAnimation) \nDuration: \(anim.view.duration) \nRepeat: \(anim.view.repeatIt)"
+        
+        randomAnimation()
+        
+        sender.setTitle(currentAnimation, for: .normal)
+        sender.animation = currentAnimation
+        if  sender.animation == "squeezeDown" {
+            sender.animation = "shake"
         }
-
+        sender.animate() 
+    }
+    
+    private func randomAnimation() {
+        if let nextAnim = anim.lableOfButton.randomElement(){
+            currentAnimation = nextAnim
+        }
+        
     }
     
 }

@@ -24,7 +24,7 @@ struct ViewWithParametres {
 
 extension Button {
     static func getAnimation() -> Button {
-     
+        
         let nameOfAnimation = ["shake",
                                "pop",
                                "morph",
@@ -52,19 +52,6 @@ extension Button {
                                "zoomOut",
                                "flash"]
         
-//        var getRandom: String {
-//            nameOfAnimation.randomElement() ?? ""
-//        }
-   // let random = CASpringAnimation(keyPath: nameOfAnimation.randomElement())
-    
         return Button(lableOfButton: nameOfAnimation, view: ViewWithParametres(repeatIt: 2, duration: Int(0.6)))
-    
-   //сделала массив
-    
-    //layer.add(random, forKey: nil)
-    
-    
-    
-        
     }
 }
