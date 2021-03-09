@@ -36,7 +36,6 @@ extension Button {
                                "fall",
                                "squeezeLeft",
                                "squeezeRight",
-                               "squeezeDown",
                                "squeezeUp",
                                "slideLeft",
                                "slideRight",
@@ -52,6 +51,7 @@ extension Button {
                                "zoomOut",
                                "flash"]
         
-        return Button(lableOfButton: nameOfAnimation, view: ViewWithParametres(repeatIt: 2, duration: Int(0.6)))
+        return Button(lableOfButton: nameOfAnimation,
+                      view: ViewWithParametres(repeatIt: 2, duration: Int(0.6)))
     }
 }

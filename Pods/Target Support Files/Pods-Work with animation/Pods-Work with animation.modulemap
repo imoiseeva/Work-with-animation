@@ -1,0 +1,6 @@
+framework module Pods_Work_with_animation {
+  umbrella header "Pods-Work with animation-umbrella.h"
+
+  export *
+  module * { export * }
+}

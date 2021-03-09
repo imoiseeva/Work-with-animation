@@ -26,10 +26,10 @@ class ViewController: UIViewController {
         
         sender.setTitle(currentAnimation, for: .normal)
         sender.animation = currentAnimation
-        if  sender.animation == "squeezeDown" {
+        if sender.animation == "squeezeDown" {
             sender.animation = "shake"
         }
-        sender.animate() 
+        sender.animate()
     }
     
     private func randomAnimation() {
